@@ -11,6 +11,9 @@ public class Main {
 	public static void main(String[] args) {
 		ProductService productService = new ProductManager(new JdbcProductRepository());
 		
+		
+		
+		
 		Product product1 = new Product(1, "Telefon", "Sarı", 5000,1);
 		Product product2 = new Product(2, "Telef", "Saglam", 5500,1);
 		Product product3 = new Product(3, "Tablet", "Innova", 5600,1);
